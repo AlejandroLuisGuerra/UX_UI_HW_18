@@ -3,75 +3,12 @@ body {
 }
 
 .title {
-    display: block;
-    width: 100%;
-}
-.inline-block {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: left;
-}
-.logo{
-    display: block;
-    width: 10px;
-    padding: 5px;
-    text-align: left;
-}
-
-#nav {
-    display: inline-block;
-    flex-direction: row;
-    margin: 0px;
-}
-
-.header {
-    width: 100%;
-    text-align: left;
-    font-size: x-large;
-    font-weight: 700;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-#navigation {
-    display: flex;
-    flex-direction: row;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    margin: 0px;
-    align-items: center;
-    justify-content: left;
-
-    font-size: larger;
     background-color: blanchedalmond;
-    padding: 5px
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
 }
 
-.ul{
-    width: 50%;
-    margin-right: auto;
-    justify-content: left;
-}
-
-img{
-    border-radius: 10px;
-}
-#heroImg {
-    width: 50%;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-
-p {
-    width: 100px;
-    text-align: left;
-    font-size: large; 
-    margin: 10px auto;
-    align-items: right;
-}
 
 .footer{
     background-color: #373738;
