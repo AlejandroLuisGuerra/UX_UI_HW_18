@@ -9,8 +9,45 @@ body {
     padding: 4px;
 }
 
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillCard {
+    display: flex;
+    object-fit: scale-down;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#myWork-Grid {
+    display: grid;
+    grid-template-rows: max-content 3fr 3fr 3fr max-content;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: (1fr 1fr);
+    gap: 40px;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.button {
+    align-self: auto;
+}
 
 .footer{
     background-color: #373738;
     padding: center;
+}
+
+@media only screen and (max-width: 600px) {
+    
 }
