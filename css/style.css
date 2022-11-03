@@ -14,16 +14,31 @@ body {
     justify-content: space-around;
 }
 
+#h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .skillCard {
     display: flex;
+    background-color: blanchedalmond;
+    border-color: white;
+    border-style:dotted;
     object-fit: scale-down;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 40px;
     width: 30%;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #myWork-Grid {
     display: grid;
+    margin-top: 20px;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
     grid-template-rows: max-content 3fr 3fr 3fr max-content;
 }
 
@@ -35,12 +50,18 @@ body {
 
 .project-details {
     display: flex;
+    font-size: larger;
     flex-direction: column;
-    justify-content: left;
+    text-align: left;
+    padding: 20px;
 }
 
 .button {
     align-self: auto;
+}
+
+.p {
+    padding: 10px;
 }
 
 .footer{
